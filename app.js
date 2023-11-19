@@ -1,6 +1,9 @@
-// this project is only basic example project, no security was in mind while building this project,
-// as minimum all api methods here should have implanting  google token validation, make sure we dealing with real google id user.
-
+/*
+  Note: This project is a basic example and does not implement security measures.
+  For a production-level application, it's crucial to incorporate proper security practices.
+  At a minimum, all API methods should include Google token validation to ensure the authenticity 
+  of the user by verifying their Google ID.
+*/
 
 const express = require('express');
 const mongoose = require('mongoose');
