@@ -1,3 +1,7 @@
+// this project is only basic example project, no security was in mind while building this project,
+// as minimum all api methods here should have implanting  google token validation, make sure we dealing with real google id user.
+
+
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -128,7 +132,8 @@ mongoose.connect('mongodb://localhost:27017/itemsDB')
     });
 
     // Example route to add a new item
-    app.post('/api/items', async (req, res) => {
+    // uuid generated at client side, so we should use put, not post.
+    app.put('/api/items', async (req, res) => {
       const newItemData = req.body;
 
       // Check if newItemData is undefined
