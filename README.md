@@ -27,10 +27,10 @@ This will start the server on http://localhost:3000.
 
 Generating Mock Data
 
-The server includes a script, mock.js, to generate mock data for testing and development. This script populates the MongoDB database with 100 randomly generated items.
-Running the Mock Data Script
+The server includes a script, mock.js, to generate mock data for testing and development. 
+This script populates the MongoDB database with 100 randomly generated items.
 
-Execute the script.
+For running the Mock Data Script Execute the script.
 
 node mock.js
 
